@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto
+}
+
+body {
+    /* background-color: #404040; */
+    background-color: rgb(21, 32, 43);
+        /*#232325; */
+}
+
+.navbar {
+
+    padding: 20px 20px;
+    color: whitesmoke;
+    background-color: #3CA67C;
+    font-weight: bold;
+    border-bottom-left-radius:10px ;
+}
+
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.nav-items {
+    padding: 0px 10px;
+    float: right;
+}
+
+
+.footer-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+    border-top-right-radius:10px ;
+
+
+}
+
+.foo-tab {
+    padding: 10px 30px;
+    margin: 50px;
+    display: inline;
+    font-size: 20px;
+}
+
+.mid-info {
+    margin: auto;
+    padding-top: 125px;
+    padding-right: 20px;
+    width: 400px;
+}
+
+.project {
+    padding-top: 5px;
+
+}
+
+.project-info {
+    padding-top: 20px;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding: 10px 10px;
+
+    margin-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 5px;
+    color: black;
+
+
+}
+
+button:hover {
+    background-color: #3CA67C
+}
+
+button:active {
+    background-color: #3CA67C;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.img-inverted{
+    color: #3CA67C;
+}
+.img-heading{
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+h2 {
+   color: #3CA67C; 
+}
+h4{
+    color:white;
+    font-weight: 2px;
+}
+
+span{
+    color: #3CA67C; 
+    
+}
+
+.blog-page{
+    padding-top:50px;
+    text-align: center;
+}
+
+.blog-item{
+    padding-top: 30px;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+
+
+    /* text-align: center;
+    padding-top: 20px;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding: 10px 10px;
+color: white;
+    margin-bottom: 10px; */
+
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10px;
+}
