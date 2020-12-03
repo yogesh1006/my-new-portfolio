@@ -22,7 +22,7 @@ body {
     padding: 20px 20px;
     color: whitesmoke;
     background-color: #3CA67C;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-bottom-left-radius:10px ;
 }
 
@@ -34,7 +34,7 @@ a {
     list-style: none;
     display: inline;
     color: whitesmoke;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .nav-items {
@@ -45,7 +45,7 @@ a {
 
 .footer-bar {
     /* position: fixed; */
-    padding-top: 15rem;
+    padding-top: 8rem;
     left: 0;
     bottom: 0;
     /* padding: 2rem 2rem; */
@@ -63,6 +63,10 @@ a {
     
 }
 
+.my-info{
+    padding-bottom: 2rem;
+}
+
 .mid-info {
     margin: auto;
     padding-top: 5rem;
@@ -71,7 +75,7 @@ a {
 }
 
 .project {
-    padding-top: 5px;
+    padding-top: 50px;
 
 }
 
@@ -79,15 +83,16 @@ a {
     padding-top: 20px;
     margin-left: 25%;
     margin-right: 20%;
-    padding: 10px 10px;
-
-    margin-bottom: 10px;
+    padding: 3rem;
+    border: 0.5px solid  rgba(255, 255, 255, 0.637); 
+    margin-bottom: 3rem;
 }
 
 button {
     display: inline-block;
     padding: 15px 15px;
     font-size: 12px;
+    font-weight:normal;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -129,26 +134,29 @@ h2 {
    color: #3CA67C; 
 }
 h4{
-    color:white;
-    font-weight: 2px;
+    color:whitesmoke;
+    padding-top: 1rem;
+    font-weight: lighter;
 }
 
 span{
     color: #3CA67C; 
+    font-size: 2rem;
     
 }
 
 .blog-page{
-    padding-top:50px;
+    padding-top:60px;
     text-align: center;
+   
 }
 
 .blog-item{
-    padding-top: 30px;
+    padding: 3rem;
     margin-left: 25%;
     margin-right: 20%;
-    padding: 10px 10px;
     margin-bottom: 10px;
+    border:0.5px solid  rgba(255, 255, 255, 0.637);
 
 }
 
@@ -156,11 +164,17 @@ span{
     /* margin-left: 2rem;
     margin-right: 2rem; */
     margin: 3rem 3rem;
-    border: 1px solid  rgba(255, 255, 255, 0.637);
+    /* border: 0.5px solid  rgba(255, 255, 255, 0.637); */
     /* border-radius: 4px; */
     text-align: center;
     padding:2rem  2rem;
 
+}
+
+.container.container-center{
+border: 0.5px solid  rgba(255, 255, 255, 0.637); 
+padding: 3rem;
+ 
 }
 
 .container h3{
@@ -179,11 +193,24 @@ span{
 .container-center{
     max-width: 600px;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 .container{
     padding: 0 0.5rem;
     /* text-align: justify; */
+}
+
+.off-white-section .container-center .link-secondary{
+    font-weight: bolder;
+}
+
+.date{
+    color: whitesmoke;
+}
+
+.navbar .link-active{
+    /* color: rgb(21, 32, 43); */
+    font-weight: bold;
 }
 
 
