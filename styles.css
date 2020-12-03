@@ -2,13 +2,13 @@
 
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     font-family: 'Montserrat', sans-serif;
 }
 
 img {
     width: 100%;
-    height: auto
+    height: auto;
 }
 
 body {
@@ -44,27 +44,28 @@ a {
 
 
 .footer-bar {
-    position: fixed;
+    /* position: fixed; */
+    padding-top: 15rem;
     left: 0;
     bottom: 0;
-    padding: 20px 20px;
+    /* padding: 2rem 2rem; */
     width: 100%;
     text-align: center;
-    border-top-right-radius:10px ;
-
+    /* background-color:#3CA67C ; */
 
 }
 
 .foo-tab {
-    padding: 10px 30px;
-    margin: 50px;
+    padding: 1rem 2rem;
+    margin: 3rem;
     display: inline;
-    font-size: 20px;
+    font-size: 1rem;
+    
 }
 
 .mid-info {
     margin: auto;
-    padding-top: 125px;
+    padding-top: 5rem;
     padding-right: 20px;
     width: 400px;
 }
@@ -101,7 +102,7 @@ button {
 }
 
 button:hover {
-    background-color: #3CA67C
+    background-color: #3CA67C;
 }
 
 button:active {
@@ -114,8 +115,14 @@ button:active {
     color: #3CA67C;
 }
 .img-heading{
-    padding-top: 10px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
     color: whitesmoke;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1rem;
 }
 
 h2 {
@@ -143,20 +150,40 @@ span{
     padding: 10px 10px;
     margin-bottom: 10px;
 
-
-
-    /* text-align: center;
-    padding-top: 20px;
-    margin-left: 25%;
-    margin-right: 20%;
-    padding: 10px 10px;
-color: white;
-    margin-bottom: 10px; */
-
 }
 
-h1{
+.off-white-section {
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    margin: 3rem 3rem;
+    border: 1px solid  rgba(255, 255, 255, 0.637);
+    /* border-radius: 4px; */
     text-align: center;
-    color: whitesmoke;
-    padding-top: 10px;
+    padding:2rem  2rem;
+
 }
+
+.container h3{
+    padding-bottom: 1rem;
+    font-weight: bold;
+    color:#3CA67C;
+}
+.container p{
+    color: whitesmoke;
+    padding-bottom: 1rem;
+}
+.section{
+    padding:1rem 0.5rem;
+    
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.container{
+    padding: 0 0.5rem;
+    /* text-align: justify; */
+}
+
+
