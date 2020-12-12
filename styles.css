@@ -64,7 +64,7 @@ a {
 }
 
 .my-info{
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .mid-info {
@@ -75,15 +75,13 @@ a {
 }
 
 .project {
-    padding-top: 50px;
+    padding-top: 0.5rem;
 
 }
-
 .project-info {
-    padding-top: 20px;
     margin-left: 25%;
     margin-right: 20%;
-    padding: 3rem;
+    padding: 2rem;
     border: 0.5px solid  rgba(255, 255, 255, 0.637); 
     margin-bottom: 3rem;
 }
@@ -173,7 +171,7 @@ span{
 
 .container.container-center{
 border: 0.5px solid  rgba(255, 255, 255, 0.637); 
-padding: 3rem;
+padding: 2rem;
  
 }
 
