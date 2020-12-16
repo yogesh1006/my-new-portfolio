@@ -13,11 +13,10 @@ img {
 
 body {
     background-color: #141414;
+    /* background-color: #fff; */
     /* margin: 0; */
     /* background-color: rgb(21, 32, 43); */
     /* font-family: 'Montserrat', sans-serif; */
-
-        /*#232325; */
 }
 
 .navbar {
@@ -27,6 +26,7 @@ body {
     /* background-color: #059669; */
     background-color: #059669;
     height: 4rem;
+    /* width: 100%; */
     /* font-weight: bold; */
     border-bottom-left-radius:1rem ;
 }
@@ -50,7 +50,7 @@ a {
 
 .footer-bar {
     /* position: fixed; */
-    padding-top: 8rem;
+    padding-top: 3rem;
     left: 0;
     bottom: 0;
     /* padding: 2rem 2rem; */
@@ -61,7 +61,7 @@ a {
 }
 
 .foo-tab {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     margin: 3rem;
     display: inline;
     font-size: 1rem;
