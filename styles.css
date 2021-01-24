@@ -66,13 +66,7 @@ a {
     color: whitesmoke;
 } 
 
-/* -------------Footer styles -----------*/
-
-
-
-
-
-/*-------------- footer styles end ---------------*/
+/* -------------sections styles -----------*/
 
 .my-info{
     padding-bottom: 0.5rem;
@@ -151,6 +145,7 @@ span{
 .blog-page{
     padding-top:60px;
     text-align: center;
+    margin-bottom: 2rem;
    
 }
 
@@ -164,11 +159,7 @@ span{
 }
 
 .off-white-section {
-    /* margin-left: 2rem;
-    margin-right: 2rem; */
     margin: 3rem 3rem;
-    /* border: 0.5px solid  rgba(255, 255, 255, 0.637); */
-    /* border-radius: 4px; */
     text-align: center;
     padding:2rem  2rem;
 
@@ -213,16 +204,17 @@ padding: 2rem;
 
 
 
-/* footer style */
+/*------------ footer style ----------*/
 
 .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 15vh;
+    height: 20vh;
     background-color: #059669;
     border-top-right-radius: 1rem;
+    bottom: 0;
 }
 
 .footer .social-links{
@@ -231,6 +223,24 @@ padding: 2rem;
 }
 
 .footer .foo-info .social-tab{
-    margin: 1rem;
-   
+    margin: 1rem;  
+}
+
+
+/*-------- my pic style ------------*/
+
+.pic{
+   /* position: relative; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url(images/mypic.jpg); 
+   background-size:cover;
+   width: 300px;
+   height: 300px;
+   margin: auto;
+   margin-top: 2rem;
+   border-radius: 50%;
+
 }
