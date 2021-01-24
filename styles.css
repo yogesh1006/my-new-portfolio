@@ -1,37 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-  * {
+html {
+    scroll-behavior: smooth;
+  }
+* {
     margin: 0;
-     /* padding: 0; */
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #141414;
 }
 
 img {
-    max-width: 100%;
-    /* height: auto; */
+    width: 100%;
+    height: auto;
 }
 
-body {
-    background-color: #141414;
-    /* background-color: #fff; */
-    /* margin: 0; */
-    /* background-color: rgb(21, 32, 43); */
-    /* font-family: 'Montserrat', sans-serif; */
-}
 
+
+/* ---------------navbar styles -------------------------------*/
 .navbar {
-
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
     padding:1rem;
     color: whitesmoke;
-    /* background-color: #059669; */
     background-color: #059669;
-    height: 4rem;
-    /* width: 100%; */
-    /* font-weight: bold; */
+    height: 15vh;
     border-bottom-left-radius:1rem ;
 }
 
+.navbar h3{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: start;
+}
 
+.nav-links{
+    float: right;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+nav .nav-links .nav-items {
+    padding: 0px 10px;
+    float: right;
+}
+
+.navbar .link-active{
+    font-weight: bold;
+}
 ul,
 li,
 a {
@@ -39,45 +64,20 @@ a {
     list-style: none;
     display: inline;
     color: whitesmoke;
-    /* font-weight: bold; */
-}
+} 
 
-.nav-items {
-    padding: 0px 10px;
-    float: right;
-}
+/* -------------Footer styles -----------*/
 
 
-.footer-bar {
-    /* position: fixed; */
-    padding-top: 3rem;
-    left: 0;
-    bottom: 0;
-    /* padding: 2rem 2rem; */
-    width: 100%;
-    text-align: center;
-    /* background-color:#059669 ; */
 
-}
 
-.foo-tab {
-    padding: 1rem 1rem;
-    margin: 3rem;
-    display: inline;
-    font-size: 1rem;
-    
-}
+
+/*-------------- footer styles end ---------------*/
 
 .my-info{
     padding-bottom: 0.5rem;
 }
 
-.mid-info {
-    margin: auto;
-    padding-top: 5rem;
-    padding-right: 20px;
-    width: 400px;
-}
 
 .project {
     padding-top: 0.5rem;
@@ -211,9 +211,26 @@ padding: 2rem;
     color: whitesmoke;
 }
 
-.navbar .link-active{
-    /* color: rgb(21, 32, 43); */
-    font-weight: bold;
+
+
+/* footer style */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 15vh;
+    background-color: #059669;
+    border-top-right-radius: 1rem;
 }
 
+.footer .social-links{
+    padding: 10px;
+   
+}
 
+.footer .foo-info .social-tab{
+    margin: 1rem;
+   
+}
